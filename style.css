@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titleSpace{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-family: "Nunito";
+    font-size: smaller;
+}
+
+h1{
+    margin-bottom: 4%;
+    margin-top: 3%;
+    font-family: "Fredoka One";
+    color: #e53270;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 2%;
+}
+
+.mainContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.alignCenter{
+    align-items: center;
+}
+
+.card{
+    background-color: black;
+    color: white;
+
+}
+
+.cardContainer{
+    padding: 2%;
+
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.info{
+
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
